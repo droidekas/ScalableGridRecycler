@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><!-- replace gridLayoutAnimation with layoutAnimation and --><!-- replace column- and rowDelay with delay for RecyclerView -->
+
+<gridLayoutAnimation xmlns:android="http://schemas.android.com/apk/res/android"
+    android:animation="@anim/grow_in"
+    android:animationOrder="normal"
+    android:columnDelay="15%"
+    android:direction="top_to_bottom|left_to_right"
+    android:interpolator="@android:interpolator/linear"
+    android:rowDelay="15%" />
